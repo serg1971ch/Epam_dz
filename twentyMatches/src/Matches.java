@@ -24,7 +24,7 @@ public class Matches {
                     return;
                 }
                 System.out.println("На столе осталось " + sum + " спичек");
-                System.out.print("- Ход игрока. Введите количество спичек: ");
+                System.out.print("- Ход игрока. Введите ещё раз количество спичек: ");
             } else if (player == 2) {
                 sum -= player;
                 System.out.println("На столе осталось " + sum + " спичек");
