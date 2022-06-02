@@ -3,6 +3,7 @@
     position: relative;
     display: block;
     width: 1366px;
+    height: 200px;
     margin: 0 auto;
 }
 
@@ -75,7 +76,7 @@ h1 {
     padding: 5px;
     border-radius: 10px;
     background-color: #e1e1e1;
-    margin-right: 5px;
+    margin-right: 15px;
     margin-top: 10%;
 }
 
