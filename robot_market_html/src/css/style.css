@@ -109,6 +109,11 @@ h1 {
     font: normal 18px Arial;
 }
 
+.menu li#3 {
+    opacity: 0;
+}
+
+
 .menu {
     color: black;
     font-size: 16px;

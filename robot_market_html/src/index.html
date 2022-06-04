@@ -12,6 +12,7 @@
     <!-- Меню -->
       <ul class="menu">
         <li id=1><a href="auth.html">Войти</a></li>
+        <li id=3 ><a class="out" href="auth.html">Выйти</a></li>
         <li><a href="contacts.html">Контакты</a></li>
         <li><a href="catalog.html">Каталог</a></li>
         <li><a href="index.html">Главная</a></li>
@@ -46,12 +47,10 @@
     ga('create', 'UA-XXXXX-Y', 'auto'); ga('set', 'anonymizeIp', true); ga('set', 'transport', 'beacon'); ga('send', 'pageview')
   </script>
   <script>
-    const h1 = document.createElement("h2");
-    h1.append('Hello, Sergey!')
-    const list = document.getElementById('1');
-    list.replaceWith(h1);
-    h1.classList.add("_name");
+    // const h1 = document.createElement("h2");
+    // h1.append('Hello, Sergey!')
   </script>
+  <script src="js/auth.js"></script>
 </div>
 
 </html>
