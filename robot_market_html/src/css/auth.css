@@ -1,9 +1,9 @@
-body {
-    background: #7B82B8;
-    /*-webkit-background-size: cover;*/
-    /*background-size: cover;*/
-    font-family:sans-serif;
-}
+/*body {*/
+/*    background: #7B82B8;*/
+/*    !*-webkit-background-size: cover;*!*/
+/*    !*background-size: cover;*!*/
+/*    font-family:sans-serif;*/
+/*}*/
 
 .image {
     position: fixed;
@@ -16,7 +16,7 @@ body {
 
 .form {
     position: absolute;
-
+    width: 80%;
     top: 50%;
     left: 50%;
     width: 30%;
