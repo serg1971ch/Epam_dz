@@ -33,8 +33,8 @@ body {
 /* ширина модального окна и его отступы от экрана */
 .modal-dialog {
     position: relative;
-    width: 500px;
-    height: 20%;
+    width: 40%;
+    height: 30%;
     margin: 10px;
 }
 @media (min-width: 576px) {
@@ -61,6 +61,7 @@ body {
     border: 1px solid rgba(0,0,0,.2);
     border-radius: .3rem;
     outline: 0;
+    background-image: url("/img/lo_files/заставка.jpg");
 }
 @media (min-width: 768px) {
     .modal-content {
@@ -115,6 +116,7 @@ body {
 /* свойства для блока, содержащего основное содержимое окна */
 .modal-body {
     height: 350px;
+    width: 600px;
     position: relative;
     -webkit-box-flex: 1;
     -webkit-flex: 1 1 auto;

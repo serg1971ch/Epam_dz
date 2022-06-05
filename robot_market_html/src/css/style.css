@@ -109,10 +109,10 @@ h1 {
     font: normal 18px Arial;
 }
 
-.menu li#3 {
-    opacity: 0;
-}
 
+.hide {
+    background-color: #ff0000;
+}
 
 .menu {
     color: black;
