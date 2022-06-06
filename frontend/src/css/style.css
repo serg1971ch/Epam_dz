@@ -1,10 +1,20 @@
+body  {
+    background-color: #A0958F;
+}
+
+.cont {
+    position: center;
+    width: 90%;
+}
+
 .container {
     /* CONTAINER */
     position: relative;
     display: block;
     width: 1366px;
-    height: 200px;
+    height: 155px;
     margin: 0 auto;
+    background-image: url("/img/ideas_zastavki.jpeg");
 }
 
 .header {
@@ -141,10 +151,31 @@ img:hover {
 }
 
 img.logo {
-    width: 120px;
-    height: 120px;
+    width: 70px;
+    height: 70px;
     margin-left: 2%;
     margin-top: 2%;
+    opacity: 80%;
+}
+
+.bodyindex {
+    height: 587px;
+    margin-left: 20px;
+    display: block;
+    position: center;
+    -moz-background-size: 100%; /* Firefox 3.6+ */
+    -webkit-background-size: 100%; /* Safari 3.1+ и Chrome 4.0+ */
+    -o-background-size: 90%; /* Opera 9.6+ */
+    background-size: 90%; /* Современные браузеры */
+    padding: 1em;
+    font-size: .9em;
+    text-align: center;
+    opacity: .85
+}
+
+.aboutcompany {
+    font-size: 18px;
+    color:#000000;
 }
 
 .description.header_shortDescriber {
@@ -273,9 +304,10 @@ div.short_description_assistant {
 .namecontacts,
 .nameindex {
     display: block;
-    color: #440e62;
+    color: black;
     font: bold 30px Arial;
     text-align: center;
+    z-index: 1;
 }
 
 .catalogimg_security {
@@ -292,7 +324,7 @@ div.short_description_assistant {
     /*float: left;*/
     text-align: center;
     width: 98%;
-    background-color: #eaeaea;
+    background: #eaeaea url("/img/serviceToRobots.jpg") no-repeat;
     padding-left: 2%;
 }
 
