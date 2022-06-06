@@ -161,6 +161,7 @@ img.logo {
 .bodyindex {
     height: 587px;
     margin-left: 20px;
+    margin-top: 50px;
     display: block;
     position: center;
     -moz-background-size: 100%; /* Firefox 3.6+ */
