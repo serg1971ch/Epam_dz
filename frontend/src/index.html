@@ -1,0 +1,84 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Главная</title>
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet" type="text/css" href="css/modal.css">
+    <link rel="stylesheet" type="text/css" href="css/auth.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script defer type="module" src="js/auth.js"></script>
+</head>
+
+<body>
+<div class="container">
+    <ul class="menu">
+        <li id=1 data-in="into" class="list"><a href="#openModal">Войти</a></li>
+<!--        <li id=3 class="list"><a class="out" href="auth.html">Выйти</a></li>-->
+        <li class="list"><a href="contacts.html">Контакты</a></li>
+        <li class="list"><a href="catalog.html">Каталог</a></li>
+        <li class="list"><a href="index.html">Главная</a></li>
+    </ul>
+    <img class="logo" src="../icon/rob.jpeg" alt="logo_robot">
+</div>
+<div id="openModal" class="modal">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h3 class="modal-title">Авторизация</h3>
+                <a href="#close" title="Close" class="close">×</a>
+            </div>
+            <div class="modal-body">
+                <div class="form">
+                    <h1>Вход</h1>
+                    <div class="form_input">
+                        <label>
+                            <input type="text" placeholder="Логин">
+                        </label>
+                    </div>
+                    <div class="form_input">
+                        <label>
+                            <input type="password" placeholder="Пароль">
+                        </label>
+                    </div>
+                    <div class="form_input">
+                        <input type="submit" class='button' placeholder="Войти">
+                    </div>
+                    <a href="#" class="_forget">Забыл пароль</a>
+                    <script src="js/auth.js" async></script>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<hr>
+<!-- О сайте -->
+<div class="bodyindex">
+    <h1 class="nameindex" align="center">Гипермаркет роботов</h1>
+    <center>
+        <h3 class="aboutcompany" prefix="200"> Приветствуем вас, дорогие наши покупатели, в супер-гигамаркете Роботов!
+            <br> Это совсем не прихоть и не дорогое удовольствие, найти подходящую себе модель. Роботы давно вошли в
+            нашу жизнь и стали неотьемлемой частью нашей жизни. Наша компания в течении многих лет работает над
+            разработкой самых передовых интеллектуальных технологий по производству всемирноизвестных брендов. Как
+            известно, наша компания специализируется в производстве роботов для личного и домашнего использования. Мы
+            избавим вас от лишних головных проблем в поисках самого необходимого помощника. В нашем магазине вы найдете
+            большое количество механических роботов, и робототизированных систем, уникальных по технологическому
+            исполнению и безграничных в области решения ваших персональных задач на работе, в быту и дома. В магазине
+            выставлен широкий ряд современных аксессуаров и всего необходимого для того чтобы ваше общение с роботами
+            было комфортным и индивидуальным. В нашем гипермаркете вы найдете сервисный центр, обслужививающий бренды
+            всего мира, который гарантировано будет обслуживать вас в течении 10 лет.</h3>
+    </center>
+</div>
+<!-- Нижняя часть -->
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<hr>
+<div class="footer">
+    <p align="center">2022 &copyВсе права защищены</p>
+</div>
+</body>
+</html>
