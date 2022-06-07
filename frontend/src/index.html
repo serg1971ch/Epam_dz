@@ -1,5 +1,4 @@
 <!doctype html>
-<html lang="en">
 <head>
     <meta charset="UTF-8">
     <title>Главная</title>
@@ -10,7 +9,6 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
     <script defer type="module" src="js/auth.js"></script>
 </head>
-
 <body>
 <div class="cont">
     <div class="container">
@@ -23,91 +21,108 @@
         </ul>
         <img class="logo" src="../icon/rob.jpeg" alt="logo_robot">
     </div>
-    <div id="openModal" class="modal">
-        <div class="modal-dialog">
-            <div class="modal-content">
-                <div class="modal-header">
-                    <h3 class="modal-title">Авторизация</h3>
-                    <a href="#close" title="Close" class="close">×</a>
-                </div>
-                <div class="modal-body">
-                    <div class="form">
-                        <h1>Вход</h1>
-                        <div class="form_input">
-                            <label>
-                                <input type="text" placeholder="Логин">
-                            </label>
+    <div class = content_index>
+        <div id="openModal" class="modal">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h3 class="modal-title">Авторизация</h3>
+                        <a href="#close" title="Close" class="close">×</a>
+                    </div>
+                    <div class="modal-body">
+                        <div class="form">
+                            <h1>Вход</h1>
+                            <div class="form_input">
+                                <label>
+                                    <input type="text" placeholder="Логин">
+                                </label>
+                            </div>
+                            <div class="form_input">
+                                <label>
+                                    <input type="password" placeholder="Пароль">
+                                </label>
+                            </div>
+                            <div class="form_input">
+                                <input type="submit" class='button' placeholder="Войти">
+                            </div>
+                            <a href="#" class="_forget">Забыл пароль</a>
+                            <script src="js/auth.js" async></script>
                         </div>
-                        <div class="form_input">
-                            <label>
-                                <input type="password" placeholder="Пароль">
-                            </label>
-                        </div>
-                        <div class="form_input">
-                            <input type="submit" class='button' placeholder="Войти">
-                        </div>
-                        <a href="#" class="_forget">Забыл пароль</a>
-                        <script src="js/auth.js" async></script>
                     </div>
                 </div>
             </div>
         </div>
-    </div>
-    <hr>
-    <!-- О сайте -->
-    <div class="bodyindex">
-        <h1 class="nameindex" align="center">Гипермаркет роботов</h1>
-        <center>
-            <h3 class="aboutcompany" prefix="200"> Приветствуем вас, дорогие наши покупатели, в супер-гигамаркете
-                Роботов!
-                <br> Это совсем не прихоть и не дорогое удовольствие, найти подходящую себе модель. Роботы давно вошли в
-                нашу жизнь и стали неотьемлемой частью нашей жизни. Наша компания в течении многих лет работает над
-                разработкой самых передовых интеллектуальных технологий по производству всемирноизвестных брендов. Как
-                известно, наша компания специализируется в производстве роботов для личного и домашнего использования.
-                Мы
-                избавим вас от лишних головных проблем в поисках самого необходимого помощника. В нашем магазине вы
-                найдете
-                большое количество механических роботов, и робототизированных систем, уникальных по технологическому
-                исполнению и безграничных в области решения ваших персональных задач на работе, в быту и дома. В
-                магазине
-                выставлен широкий ряд современных аксессуаров и всего необходимого для того чтобы ваше общение с
-                роботами
-                было комфортным и индивидуальным. В нашем гипермаркете вы найдете сервисный центр, обслужививающий
-                бренды
-                всего мира, который гарантировано будет обслуживать вас в течении 10 лет.</h3>
-        </center>
-<!--    </div>-->
+        <!-- О сайте -->
+        <h1 class="name_index" align="left">О компании</h1>
+        <div class="body_index">
+
+            <div style="text-align: left;">
+                <h3 class="aboutcompany" prefix="200">
+                    Приветствуем вас, в нашем гигамаркете Роботов!
+                    <br> Это совсем не прихоть и не дорогое удовольствие, найти подходящую себе модель. Роботы давно вошли в
+                    нашу жизнь и стали неотьемлемой частью нашей жизни. Наша компания в течении многих лет работает над
+                    разработкой самых передовых интеллектуальных технологий по производству всемирноизвестных брендов. Как
+                    известно, наша компания специализируется в производстве роботов для личного и домашнего использования.
+                    Мы
+                    избавим вас от лишних головных проблем в поисках самого необходимого помощника. В нашем магазине вы
+                    найдете
+                    большое количество механических роботов, и робототизированных систем, уникальных по технологическому
+                    исполнению и безграничных в области решения ваших персональных задач на работе, в быту и дома. В
+                    магазине
+                    выставлен широкий ряд современных аксессуаров и всего необходимого для того чтобы ваше общение с
+                    роботами
+                    было комфортным и индивидуальным. В нашем гипермаркете вы найдете сервисный центр, обслужививающий
+                    бренды
+                    всего мира, который гарантировано будет обслуживать вас в течении 10 лет.</h3>
+            </div>
+            <div class="interesting">
+                <img class ='greeting_img' src = "/img/приветствиеjpeg" alt="greet">
+            </div>
+        </div>
+        <div>
+            <div>
+                <img class ='greeting_img' src = "/img/serviceToRobots.jpg" alt="greet"></img>
+            </div>
+            <div>
+                <h3 class="about_work">
+                    Наша работа, которые мы посвятили десятелетия, это воплощение всех ваших идей, сделана руками самых выдающихся инженеров нашего времени.
+                </h3>
+            </div>
+        </div>
         <div class="container_tab">
             <div class="tabcontainer">
                 <div class="tabcontent">
-                    <img src="/img/дроиды.jpg" alt="vegy">
+                    <img  class='tab_img' src="/img/собака.jpg" alt="vegy">
                     <div class="tabcontent__descr">
                         Меню "Фитнес" - это новый подход к приготовлению блюд: больше свежих овощей и фруктов. Для людей, которые интересуются спортом; активных и здоровых. Это абсолютно новый продукт с оптимальной ценой и высоким качеством!
                     </div>
                 </div>
             </div>
-        </div>
-                <!-- <div class="tabcontent">
-                    <img src="img/tabs/elite.jpg" alt="elite">
-                    <div class="tabcontent__descr">
-                        Меню “Премиум” - мы используем не только красивый дизайн упаковки, но и качественное исполнение блюд. Красная рыба, морепродукты, фрукты - ресторанное меню без похода в ресторан!
-                    </div>
-                </div> -->
-                <!-- <div class="tabcontent">
-                    <img src="img/tabs/post.jpg" alt="post">
-                    <div class="tabcontent__descr">
-                        Наше специальное “Постное меню” - это тщательный подбор ингредиентов: полное отсутствие продуктов животного происхождения. Полная гармония с собой и природой в каждом элементе! Все будет Ом!
-                    </div>
+            <!--        </div>-->
+            <!-- <div class="tabcontent">
+                <img src="img/tabs/elite.jpg" alt="elite">
+                <div class="tabcontent__descr">
+                    Меню “Премиум” - мы используем не только красивый дизайн упаковки, но и качественное исполнение блюд. Красная рыба, морепродукты, фрукты - ресторанное меню без похода в ресторан!
                 </div>
-                <div class="tabcontent">
-                    <img src="img/tabs/vegy.jpg" alt="vegy">
-                    <div class="tabcontent__descr">
-                        Меню "Сбалансированное" - это соответствие вашего рациона всем научным рекомендациям. Мы тщательно просчитываем вашу потребность в к/б/ж/у и создаем лучшие блюда для вас.
-                    </div>
-                </div> -->
-    <div class="footer">
-        <p align="center">2022 &copyВсе права защищены</p>
+            </div> -->
+            <!-- <div class="tabcontent">
+                <img src="img/tabs/post.jpg" alt="post">
+                <div class="tabcontent__descr">
+                    Наше специальное “Постное меню” - это тщательный подбор ингредиентов: полное отсутствие продуктов животного происхождения. Полная гармония с собой и природой в каждом элементе! Все будет Ом!
+                </div>
+            </div>
+            <div class="tabcontent">
+                <img src="img/tabs/vegy.jpg" alt="vegy">
+                <div class="tabcontent__descr">
+                    Меню "Сбалансированное" - это соответствие вашего рациона всем научным рекомендациям. Мы тщательно просчитываем вашу потребность в к/б/ж/у и создаем лучшие блюда для вас.
+                </div>
+            </div> -->
+        </div>
+        <div class="footer">
+            <p align="center">2022 &copyВсе права защищены</p>
+        </div>
     </div>
 </div>
 </body>
-</html>
+<html lang="en">
+

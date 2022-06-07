@@ -3,30 +3,37 @@ body  {
 }
 
 .cont {
-    position: center;
-    width: 90%;
+    display: block;
+    margin-left:10px;
+    width: 100%;
+    height: auto;
+    background-color: #f4f4f4;
 }
 
 .container {
     /* CONTAINER */
     position: relative;
-    display: block;
-    width: 1366px;
-    height: 155px;
-    margin: 0 auto;
-    background-image: url("/img/ideas_zastavki.jpeg");
+    display: inline-block;
+    width: 110%;
+    height: 25%;
+    -moz-background-size: 100%; /* Firefox 3.6+ */
+    -webkit-background-size: 100%; /* Safari 3.1+ и Chrome 4.0+ */
+    -o-background-size: 90%; /* Opera 9.6+ */
+    background-size: 80%; /* Современные браузеры */
+    margin: 10% auto;
+    background-image: url("../../img/фоновое изображение.jpg");
 }
 
 .header {
     /* Блок МЕНЮ */
     position: relative;
     display: block;
-    height: 230px;
+    height: 350px;
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
-    background-image: url("../../img/фоновое изображение.jpg");
     list-style-type: none;
     font: 19px "URW Chancery L", cursive;
+    opacity:.75 ;
 }
 
 .bodycontacts {
@@ -88,21 +95,21 @@ h1 {
 .menu li {
     /*position: relative;*/
     float: right;
-    width: 90px;
-    height: 20px;
+    width: 100px;
+    height: 30px;
     list-style-type: none;
     border: solid 1px #959595;
     padding: 5px;
     border-radius: 10px;
     background-color: #e1e1e1;
     margin-right: 15px;
-    margin-top: 10%;
+    margin-top: 15%;
 }
 
 .menu li a {
     display: block;
     width: 90px;
-    height: 20px;
+    height: 30px;
     text-decoration: none;
     text-align: center;
     color: #440e62;
@@ -119,7 +126,10 @@ h1 {
     font: normal 18px Arial;
 }
 
-
+.content_index {
+    display: block;
+    position: relative;
+}
 .hide {
     background-color: #ff0000;
 }
@@ -127,7 +137,6 @@ h1 {
 .menu {
     color: black;
     font-size: 16px;
-    font-width: 400;
     width: 650px;
 }
 
@@ -158,25 +167,47 @@ img.logo {
     opacity: 80%;
 }
 
-.bodyindex {
-    height: 587px;
+.body_index {
+    top:10%;
+    display: flex;
+    position: relative;
     margin-left: 20px;
     margin-top: 50px;
-    display: block;
-    position: center;
-    -moz-background-size: 100%; /* Firefox 3.6+ */
-    -webkit-background-size: 100%; /* Safari 3.1+ и Chrome 4.0+ */
-    -o-background-size: 90%; /* Opera 9.6+ */
-    background-size: 90%; /* Современные браузеры */
-    padding: 1em;
+    padding-top: 10px;
     font-size: .9em;
-    text-align: center;
-    opacity: .85
+    text-align: left;
 }
 
 .aboutcompany {
+    float:left;
     font-size: 18px;
     color:#000000;
+    margin-bottom: 50px;
+    width: 60%;
+    text-align-all:start;
+}
+
+.name_index {
+    text-align: left;
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.about_work {
+    width: 30%;
+}
+
+.greeting_img {
+    margin: 0 0 0 0;
+    width: 110%;
+}
+
+.interesting {
+    left:900px;
+    width: 20%;
+    height: 200px;
+    position: absolute;
 }
 
 .description.header_shortDescriber {
@@ -297,6 +328,10 @@ div.short_description_man {
     background-color: darkgray;
 }
 
+.tab_img {
+    margin-top: 50px;
+}
+
 div.short_description_assistant {
     background-color: darkgray;
 }
@@ -325,7 +360,6 @@ div.short_description_assistant {
     /*float: left;*/
     text-align: center;
     width: 98%;
-    background: #eaeaea url("/img/serviceToRobots.jpg") no-repeat;
     padding-left: 2%;
 }
 
@@ -454,13 +488,15 @@ input[type="reset"] {
 
 .footer {
     /* FOOTER */
-    padding-right: 20px;
+    position: absolute;
+    padding-right: 50px;
+    margin-top: 50px;
     background-color: #eaeaea;
     border-bottom-left-radius: 10px;
     border-bottom-right-radius: 10px;
     width: 100%;
     height: 100px;
-    float:right;
+    float:left;
 }
 
 .footer_contacts {
@@ -487,7 +523,7 @@ input[type="reset"] {
 .footer p {
     float: right;
     width: 170px;
-    color: #440e62;
+    color: #f7f8f8;
     font: bold 12px Arial;
     padding-left: 60px;
     padding-top: 30px;
