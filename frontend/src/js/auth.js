@@ -1,18 +1,18 @@
-if (typeof window !== 'undefined') {
-    console.log('You are on the browser')
-} else {
-    console.log('You are on the server')
-}
-const list = $(".menu");
-const leaf = $('li#3.list');
-const menu = document.querySelector('.menu');
-// const item = document.getElementsByClassName('list');
-const btn = $('input.button');
-
-btn.onclick = function () {
-    alert('Спасибо');
-    console.log("просто офигеть!")
-}
+// if (typeof window !== 'undefined') {
+//     console.log('You are on the browser')
+// } else {
+//     console.log('You are on the server')
+// }
+// const list = $(".menu");
+// const leaf = $('li#3.list');
+// const menu = document.querySelector('.menu');
+// // const item = document.getElementsByClassName('list');
+// const btn = $('input.button');
+//
+// btn.onclick = function () {
+//     alert('Спасибо');
+//     console.log("просто офигеть!")
+// }
 // function ex() {
 //     for (let i = 0; i < leaf.length; i++) {
 //         console.log(leaf[i]);

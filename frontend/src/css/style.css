@@ -127,6 +127,7 @@ h1 {
 }
 
 .content_index {
+    top:20px;
     display: block;
     position: relative;
 }
@@ -176,6 +177,7 @@ img.logo {
     padding-top: 10px;
     font-size: .9em;
     text-align: left;
+
 }
 
 .aboutcompany {
@@ -185,9 +187,13 @@ img.logo {
     margin-bottom: 50px;
     width: 60%;
     text-align-all:start;
+    background-color: rgba(246, 239, 239, 0.84);
 }
 
 .name_index {
+    top:-30px;
+    left: 20px;
+    position: absolute;
     text-align: left;
     font-size: 24px;
     font-weight: bold;
@@ -195,12 +201,19 @@ img.logo {
 }
 
 .about_work {
-    width: 30%;
+    position: absolute;
+    width:35%;
+    left: 650px;
+    top: 70%;
+    margin-left: 40px;
+    padding-left: 5px;
+    padding-top: 10px;
+    padding-bottom: 20px;
 }
 
 .greeting_img {
-    margin: 0 0 0 0;
-    width: 110%;
+    width: 90%;
+    margin-bottom: 20px;
 }
 
 .interesting {
@@ -326,10 +339,6 @@ p.total_short:first-letter {
 
 div.short_description_man {
     background-color: darkgray;
-}
-
-.tab_img {
-    margin-top: 50px;
 }
 
 div.short_description_assistant {

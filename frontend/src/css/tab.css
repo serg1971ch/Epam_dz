@@ -27,12 +27,14 @@ a{text-decoration:none}
 .preview__life{font-weight:700;font-size:20px;margin-left:35px;margin-top:35px}
 .bgc_blue{position:absolute;right:0;top:-155px;width:50vw;height:900px;background:rgba(146,242,255,.15);z-index:-1}
 .tabcontainer{
+
     display:flex;
     width:550px;
     box-shadow:0 4px 2px rgba(0,0,0,.25);
-    margin: 0 auto 5px;
+    margin: 5%  10%  5%;
 }
 .tabcontent{
+    display: flex;
     width:550px;
     position:relative;
 }
@@ -50,16 +52,24 @@ a{text-decoration:none}
     background:rgba(203,198,198,.8);
     padding:50px;
     font-size:14px;
-    font-weight:200;line-height:24px;color:rgba(0,0,0,.7)}.tabheader{width:280px;padding:35px 30px;background-color:#fff}
+    font-weight:200;line-height:24px;color:rgba(0,0,0,.7)}
+.tabheader{width:280px;padding:35px 30px;background-color:#fff}
 .tabheader h3{font-weight:700;font-size:16px}
 .tabheader__items{margin-top:35px;padding-left:26px;border-left:1px solid #000}
 .tabheader__item{font-weight:700;font-size:18px;font-weight:300;margin-top:10px;color:rgba(0,0,0,.6);cursor:pointer;transition:.3s all}
-.tabheader__item_active{color:#000;font-size:22px;font-weight:700}.offer{padding:70px 0 100px 0;position:relative}.offer .container{display:flex;justify-content:space-between}.offer .bgc_y{position:absolute;width:1109px;height:780px;background:rgba(243,255,222,.45);z-index:-1;top:50px}.offer__text{width:580px}.offer__descr{font-size:18px;margin-top:30px;font-weight:300;line-height:24px}.offer__action{display:flex;align-items:center;justify-content:flex-end}.offer__advantages{width:330px;margin-top:50px}
+.tabheader__item_active{color:#000;font-size:22px;font-weight:700}
+.offer{padding:70px 0 100px 0;position:relative}
+.offer .container{display:flex;justify-content:space-between}
+.offer .bgc_y{position:absolute;width:1109px;height:780px;background:rgba(243,255,222,.45);z-index:-1;top:50px}
+.offer__text{width:580px}.offer__descr{font-size:18px;margin-top:30px;font-weight:300;line-height:24px}
+.offer__action{display:flex;align-items:center;justify-content:flex-end}
+.offer__advantages{width:330px;margin-top:50px}
 .offer__advantages h2{font-weight:700;font-size:20px;margin-top:20px}
 .offer__advantages h2:first-child{margin-top:70px}
 .offer__advantages-text{margin-top:20px;font-size:18px;font-weight:300;line-height:21px}
 .offer__slider{width:650px;margin-top:50px;display:flex;flex-direction:column;align-items:flex-end}
-.offer__slider-counter{display:flex;width:180px;align-items:center;font-size:24px;color:rgba(0,0,0,.5)}.offer__slider-wrapper{width:100%;margin-top:15px;box-shadow:0 4px 30px rgba(0,0,0,.25)}
+.offer__slider-counter{display:flex;width:180px;align-items:center;font-size:24px;color:rgba(0,0,0,.5)}
+.offer__slider-wrapper{width:100%;margin-top:15px;box-shadow:0 4px 30px rgba(0,0,0,.25)}
 .offer__slider-prev{margin-right:10px;cursor:pointer}
 .offer__slider-next{margin-left:10px;cursor:pointer}
 .offer__slider #current{font-size:48px;font-weight:700;color:#000}
@@ -81,6 +91,9 @@ a{text-decoration:none}
 .calculating__total{width:490px;margin:0 auto;display:flex;justify-content:space-between;align-items:center}
 .calculating__result{font-size:18px;font-weight:700}
 .calculating__result span{font-size:42px}
+.container_tab {
+    display: inline-block;
+}
 .menu{padding:40px 0 50px 0}
 .menu .container{display:flex;justify-content:space-between;align-items:flex-start}
 .menu .title{text-align:center}
