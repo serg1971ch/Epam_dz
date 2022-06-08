@@ -1,0 +1,493 @@
+.container {
+    /* CONTAINER */
+    position: relative;
+    display: block;
+    width: 100%;
+    margin: 0 0;
+}
+
+.header {
+    /* Блок МЕНЮ */
+    position: relative;
+    display: block;
+    height: 230px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    background-image: url("../../img/фоновое изображение.jpg");
+    list-style-type: none;
+    font: 19px "URW Chancery L", cursive;
+}
+
+
+.main_header {
+    /* Блок МЕНЮ */
+    /*position: relative;*/
+    /*display: block;*/
+    height: 230px;
+    width: 100%;
+    background-image: url("../../img/фоновое изображение.jpg");
+    list-style-type: none;
+    font: 19px "URW Chancery L", cursive;
+}
+
+.bodycontacts {
+    position: absolute;
+    display: flex;
+    width: 100%;
+}
+
+.form_contact {
+    width: 500px;
+    padding-left: 30px;
+    padding-top: 30px;
+    padding-right: 30px;
+}
+.forma,
+.form_input {
+    margin: 0 auto;
+}
+
+.mapping {
+    width: 750px;
+    padding-left: 30px;
+    padding-top: 30px;
+    padding-right: 30px;
+}
+
+h1 {
+    color: black;
+    font-weight: 400;
+    font-size: 20px;
+}
+
+.name {
+    color: black;
+    font-weight: 400;
+    font-size: 18px;
+    background-color: #eaeaea;
+    align-items: center;
+    margin-left: 20px;
+}
+
+.tech {
+    border-collapse: collapse;
+}
+
+.menu {
+    float:right;
+}
+
+._name {
+    float:left;
+    margin-top: 10%;
+    font-size: 24px;
+    font-width: 400;
+    font-family: GothicE;
+    color: red;
+}
+
+.menu li {
+    /*position: relative;*/
+    float: right;
+    width: 90px;
+    height: 20px;
+    list-style-type: none;
+    border: solid 1px #959595;
+    padding: 5px;
+    border-radius: 10px;
+    background-color: #e1e1e1;
+    margin-right: 15px;
+    margin-top: 10%;
+}
+
+.menu li a {
+    display: block;
+    width: 90px;
+    height: 20px;
+    text-decoration: none;
+    text-align: center;
+    color: #440e62;
+    font: normal 18px Arial;
+}
+
+.menu li a:hover {
+    display: block;
+    width: 90px;
+    height: 20px;
+    text-decoration: none;
+    text-align: center;
+    color: #ff0000;
+    font: normal 18px Arial;
+}
+
+
+.hide {
+    background-color: #ff0000;
+}
+
+.menu {
+    color: black;
+    font-size: 16px;
+    font-width: 400;
+    width: 650px;
+}
+
+
+.bodymore {
+    display: flex;
+}
+
+li.imgli {
+    color: darkblue;
+}
+
+.short_description img {
+    margin-top: 20px;
+    width: 450px;
+    outline: 5px solid darkcyan;
+}
+
+img:hover {
+    outline: snow;
+}
+
+img.logo {
+    width: 120px;
+    height: 120px;
+    margin-left: 2%;
+    margin-top: 2%;
+}
+
+.description.header_shortDescriber {
+    display: block;
+    margin-left: 30px;
+    width: 850px;
+}
+
+p.header_short {
+    margin-left: 20px;
+    color: #707070;
+    font-size: 18px;
+    font-style: italic;
+    line-height: 16px;
+}
+
+p.header_short:first-letter {
+    font-size: 24px;
+    color: red;
+}
+
+p.total_short_man {
+    margin-left: 20px;
+    color: #707070;
+    font-size: 18px;
+    font-style: italic;
+    line-height: 16px;
+}
+
+p.total_short_man {
+    font-size: 34px;
+    color: red;
+}
+
+p.total_short {
+    color: #484343;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: left;
+    margin-left: 20px;
+}
+
+p.total_short:first-letter {
+    font-size: 24px;
+    color: red;
+}
+
+p.total_short_man {
+    margin-left: 20px;
+    color: #484343;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: left;
+}
+
+p.total_short:first-letter {
+    font-size: 34px;
+    color: red;
+}
+
+.description {
+    width: 950px;
+    display: block;
+}
+
+.bodymore_dog {
+    width: 500px;
+}
+
+.tech_table {
+    margin-left: 40px;
+}
+
+.table {
+    border-collapse: collapse;
+}
+
+.tech_table.tech_name {
+    color: black;
+    font-weight: 400;
+    font-size: 18px;
+    background-color: #eaeaea;
+    align-items: center;
+    border-collapse: collapse;
+}
+
+.tech_table  td {
+    height: 30px;
+    width: 170px;
+    font: normal 16px Arial;
+    font-weight: 400;
+    border: solid #ec008c 2px;
+}
+
+.short_description {
+    height: 620px;
+}
+
+.description_man {
+    width: 950px;
+}
+
+.image {
+    display: block;
+}
+
+
+.image img {
+    margin-left: 150px;
+    width: 400px;
+    height: 500px;
+    margin-top: 50px;
+    margin-right: 50px;
+    outline: 5px solid darkcyan;
+}
+
+div.short_description_man {
+    background-color: darkgray;
+}
+
+div.short_description_assistant {
+    background-color: darkgray;
+}
+
+.namecatalog,
+.namecontacts,
+.nameindex {
+    display: block;
+    color: #440e62;
+    font: bold 30px Arial;
+    text-align: center;
+}
+
+.catalogimg_security {
+    position: relative;
+    display: block;
+    float: left;
+    width: 520px;
+    margin-left: 5px;
+    background-color: darkgray;
+}
+
+.smallimg {
+    /* Страница каталога */
+    /*float: left;*/
+    text-align: center;
+    width: 98%;
+    background-color: #eaeaea;
+    padding-left: 2%;
+}
+
+img.icon {
+    height: 300px;
+    width: 300px;
+    margin: 20px 20px 15px 5px;
+    background-color: #eaeaea;
+}
+
+.nameh2 {
+    background-color: #eaeaea;
+    color: #000;
+    font: normal 18px Arial;
+    font-weight: 400;
+    text-align: center;
+    width: 100%;
+}
+
+.attachment {
+    /* Подробное описание товара */
+    list-style-type: none;
+    padding-left: 10px;
+}
+
+.attachment li {
+    background-color: #f8f8f8;
+    color: #000;
+    font: normal 18px Arial;
+    font-weight: 400;
+}
+
+.robot_refer {
+    text-decoration: none;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.buy {
+    /* Кнопка купить */
+    margin-top: 50px;
+    margin-right: 200px;
+    margin-left: 40%;
+}
+
+.buy > input {
+    width: 100px;
+    border: solid 2px #440e62;
+    border-radius: 10px;
+    background-color: mediumblue;
+}
+
+.buy > input[value] {
+    color: white;
+    font: normal 20px Arial;
+    position: center;
+}
+
+.buy > input:hover {
+    background-color: deepskyblue;
+}
+
+.buy > input[value]:hover {
+    color: #ec008c;
+}
+
+.buy > input[value]:active {
+    background-color: #ec008c;
+}
+
+.buy > input[value]:active {
+    color: white;
+}
+
+.base,
+.optimal,
+.pro {
+    color: #7a0026;
+    font: normal 16px Arial;
+    font-weight: 400;
+    text-align: left;
+    list-style: none;
+}
+
+.forma,
+input[type="text"],
+.tema,
+.message {
+    /* Форма братной связи */
+    width: 400px;
+    font: normal 14px Arial;
+    line-height: 20px;
+}
+
+input[type="text"],
+.tema,
+.message {
+    text-transform: capitalize;
+    background-color: #eaeaea;
+}
+
+.textemail:focus {
+    /* Подсветка при выборе */
+    background-color: #a3d39c;
+    color: #f00;
+}
+
+.tema {
+    height: 40px;
+}
+
+.message {
+    height: 100px;
+}
+
+input[type="submit"],
+input[type="reset"] {
+    width: 200px;
+    margin-bottom: 20px;
+}
+
+.map {
+    width: 100%;
+    height: 374px;
+}
+
+.footer {
+    /* FOOTER */
+    padding-right: 20px;
+    background-color: #eaeaea;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    width: 100%;
+    height: 100px;
+    float:right;
+}
+
+.footer_contacts {
+    height: 130px;
+    background-color: #eaeaea;
+    padding-right: 20px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    margin-top: 45%;
+    width: 100%;
+}
+
+.footer_man {
+    height: 130px;
+    background-color: #eaeaea;
+    padding-right: 20px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    position: absolute;
+    margin-top: 6%;
+    width: 100%;
+}
+
+.footer p {
+    float: right;
+    width: 170px;
+    color: #440e62;
+    font: bold 12px Arial;
+    padding-left: 60px;
+    padding-top: 30px;
+    position: relative;
+}
+
+.footer_contacts p {
+    float: right;
+    width: 170px;
+    color: #440e62;
+    font: bold 12px Arial;
+    padding-left: 60px;
+    padding-top: 30px;
+}
+
+.footer_man p {
+    position: relative;
+    width: 170px;
+    color: #440e62;
+    font: bold 12px Arial;
+    padding-top: 30px;
+    padding-left: 100px;
+    float:right;
+}
+
