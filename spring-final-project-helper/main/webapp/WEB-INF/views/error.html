@@ -1,0 +1,18 @@
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Shop</title>
+</head>
+<body>
+Name user: <b th:inline="text"> [[${#httpServletRequest.remoteUser}]] </b>
+<p></p>
+<form th:action="@{/appLogout}" method="POST">
+    <input type="submit" value="Logout"/>
+</form>
+<div class="page-title">ERROR!</div>
+<h3 style="color:red;">Sorry, you do not have administrator rights!</h3>
+<p></p>
+<a th:href="@{/products}">Product List</a>
+<p></p>
+</body>
+</html>

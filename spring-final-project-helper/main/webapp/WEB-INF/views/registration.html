@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Registration</title>
+</head>
+<h3> Register at the store </h3>
+<body>
+<h3 style="color:red;" th:text="${message}"></h3>
+<form th:action="@{/appRegistration}" method="POST">
+    Username: <input type="text" name="username"/> <br/><br/>
+    Password: <input type="password" name="password"/> <br/><br/>
+    <input type="submit" value="Registration"/>
+</form>
+<p></p>
+<a th:href="@{/login}">Login</a>
+</body>
+</html>

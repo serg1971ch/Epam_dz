@@ -1,0 +1,64 @@
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:th="https://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Shop</title>
+</head>
+<body>
+<h3>Products list</h3>
+Name user: <b th:inline="text"> [[${#httpServletRequest.remoteUser}]] </b>
+<p></p>
+<form th:action="@{/appLogout}" method="POST">
+    <input type="submit" value="Logout"/>
+</form>
+<div th:if="${#httpServletRequest.isUserInRole('ROLE_ADMIN')}">
+    <p></p>
+    <a th:href="@{/admin/add}">Add Product</a>
+    <br/><br/>
+</div>
+<table border="" style="width:300px">
+    <tr align="center">
+        <th>Code</th>
+        <th>Image</th>
+        <th>Name</th>
+        <th>Price</th>
+        <th>Quantity</th>
+        <div th:if="${#httpServletRequest.isUserInRole('ROLE_ADMIN')}">
+            <th>Edit product</th>
+            <th>Delete</th>
+        </div>
+        <th>Quantity to buy</th>
+        <th>Add basket</th>
+    </tr>
+    <tr th:each="product : ${products}" align="center">
+        <td th:utext="${product.code}"></td>
+        <td><img width="75" height="50" th:src="@{/image/{code}(code=${product.code})}"></td>
+        <td th:utext="${product.name}"></td>
+        <td th:utext="${product.price}"></td>
+        <td th:utext="${product.quantity}"></td>
+        <div th:if="${#httpServletRequest.isUserInRole('ROLE_ADMIN')}">
+            <td>
+                <a th:href="@{/admin/edit/{code}(code=${product.code})}">Edit</a>
+            </td>
+            <form action="#" th:action="@{/admin/delete/{code}(code=${product.code})}" method="GET">
+                <td>
+                    <input type="submit" value="Delete"/>
+                </td>
+            </form>
+        </div>
+        <form action="#" th:action="@{/add/basket/{code}(code=${product.code})}" method="POST">
+            <td>
+                <input type="number" name="count" min="1" max="9999999999">
+            </td>
+            <td>
+                <input type="submit" value="Add"/>
+            </td>
+        </form>
+    </tr>
+</table>
+<p></p>
+<form>
+    <a th:href="@{/basket}">Basket</a>
+</form>
+</body>
+</html>
